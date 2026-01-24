@@ -1,0 +1,24 @@
+-sv
+-timescale 1ns/100ps
+# TESTBENCH FILES
+./../01_bench/driver.sv
+./../01_bench/scoreboard.sv
+./../01_bench/tbench.sv
+./../01_bench/tlib.svh
+# SOURCE CODE FILES
+./../00_src/code/brc.sv
+./../00_src/code/alu.sv
+./../00_src/code/control_unit.sv
+./../00_src/code/decoder_5_to_32.sv
+./../00_src/code/dmem.sv
+./../00_src/code/FullAdder.sv
+./../00_src/code/imem.sv
+./../00_src/code/immgen.sv
+./../00_src/code/LSU.sv
+./../00_src/code/mux_32_to_1.sv
+./../00_src/code/PC.sv
+./../00_src/code/regfile.sv
+./../00_src/code/register32.sv
+./../00_src/code/shifter.sv
+./../00_src/code/single_cycle.sv
+./../00_src/code/write_enable.sv
